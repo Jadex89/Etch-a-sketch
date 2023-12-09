@@ -1,0 +1,78 @@
+* {
+    box-sizing: border-box;
+    
+}
+
+#first {
+    display: flex;
+    justify-content: center;
+    font-size: 35px;
+    color: royalblue;
+}
+
+#container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    height: 500px;
+    
+}
+
+#highercontainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#btncontainer {
+    display: flex;
+    justify-content: center;
+    gap: 45px;
+}
+
+#sqrnumber {
+    border: none;
+    border-radius: 12px;
+    background-color: #ed1821;
+    color: #ffffff;
+    padding: 15px;
+    cursor: pointer;
+}
+
+.grid-item {
+    border: 1px solid black;
+}
+
+
+.grid-item:hover {
+    cursor: pointer;
+}
+
+.resetbtn {
+    background-color: royalblue;
+    border: none;
+    border-radius: 12px;
+    color: white;
+    padding: 15px;
+    cursor: pointer;
+}
+
+.rainbowBtn {
+    background-color: purple;
+    border: none;
+    border-radius: 12px;
+    color: white;
+    padding: 15px;
+    cursor: pointer;
+}
+
+.shadingBtn {
+    border: solid, 2px;
+    border-color: black;
+    border-radius: 12px;
+    color: black;
+    padding: 15px;
+    cursor: pointer;
+}
